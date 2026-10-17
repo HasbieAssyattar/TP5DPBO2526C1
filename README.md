@@ -33,17 +33,26 @@ Saya <strong>Muhamad Hasbie Assyattar</strong> dengan <strong>NIM 2508288</stron
 
 # Struktur File
 ```
-Main
+TP5DPBO2526C1/
 ├── PeopleData/
 │   └── src/
-│       ├── Person.java
-│       ├── PeopleMenu.java
-│       └── PeopleMenu.form
+│       ├── Database.java        # koneksi JDBC + method query
+│       ├── Person.java          # model / entity Person
+│       ├── PeopleMenu.java      # form GUI + logika CRUD
+│       └── PeopleMenu.form      # layout GUI (Swing UI Designer)
+│
+├── lib/
+│   └── mysql-connector-j-26.7.0.jar   # driver JDBC MySQL
 │
 ├── Dokumentasi/
-│   └── Remove.gif
-│   └── Add.gif
+│   ├── Add.gif
+│   ├── Edit.gif
+│   ├── DeleteConfirmation.gif
+│   ├── ErrorAddEmptyField.gif
+│   ├── ErrorEditEmptyField.gif
+│   └── ErrorIdSama.gif
 │
+├── db_tp5.sql                   # struktur + data tabel person
 └── README.md
 ```
 # Anuan Program

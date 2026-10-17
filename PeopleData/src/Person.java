@@ -1,16 +1,18 @@
 public class Person {
     private String id;
     private String nama;
-    private String tahunLahir;
+    private String tahun;
     private String alamat;
     private String jabatan;
+    private double ipk;
 
-    public Person(String id, String nama, String tahunLahir, String alamat, String jabatan) {
+    public Person(String id, String nama, String tahun, String alamat, String jabatan, double ipk) {
         this.id = id;
         this.nama = nama;
-        this.tahunLahir = tahunLahir;
+        this.tahun = tahun;
         this.alamat = alamat;
         this.jabatan = jabatan;
+        this.ipk = ipk;
     }
 
     // Getter dan Setter
@@ -30,12 +32,12 @@ public class Person {
         this.nama = nama;
     }
 
-    public String getTahunLahir() {
-        return tahunLahir;
+    public String getTahun() {
+        return tahun;
     }
 
-    public void setTahunLahir(String tahunLahir) {
-        this.tahunLahir = tahunLahir;
+    public void setTahun(String tahun) {
+        this.tahun = tahun;
     }
 
     public String getAlamat() {
@@ -52,5 +54,13 @@ public class Person {
 
     public void setJabatan(String jabatan) {
         this.jabatan = jabatan;
+    }
+
+    public double getIpk() {
+        return ipk;
+    }
+
+    public void setIpk(double ipk) {
+        this.ipk = ipk;
     }
 }

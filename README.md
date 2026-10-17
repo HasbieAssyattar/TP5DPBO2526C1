@@ -4,6 +4,10 @@
 Saya <strong>Muhamad Hasbie Assyattar</strong> dengan <strong>NIM 2508288</strong> mengerjakan Tugas Praktikum 4 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 # Desain
+-Database
+  - Connection
+  - Statement
+
 - Person
   - id : String
   - nama : String
@@ -43,12 +47,28 @@ Main
 └── README.md
 ```
 # Anuan Program
-nanti ada isian Id nama tahun alamat sama combo box isinya jabatan, terus bisa di add sama hapus... kalau mau hapus spilih dulu dari tabelnya
-
+nanti ada isian Id nama tahun alamat sama combo box isinya jabata dan juga isian IPK , terus bisa di CRUD ... kalau mau hapus dan edit spilih dulu dari tabelnya dan kalau mau add tinnggal add
+sebernyata ini pakai yang TP4 cuma di gabung aja sama database sql
+terus untuk error handling
+- kalo ada id sama
+- kalo ada yang ga diisi pas  Update
+- kalo adaa yang ga diisi pas create
 # Dokumentasi
 
 ## Add
 ![Add](Dokumentasi/Add.gif)
 
-## Remove
-![Remove](Dokumentasi/Remove.gif)
+## Delete
+![Remove](Dokumentasi/DeleteConfirmation.gif)
+
+## Update
+![Remove](Dokumentasi/Edit.gif)
+
+## Error Add Empty FIeld
+![Remove](Dokumentasi/ErrorAddEmptyField.gif)
+
+## Error Edit Empty FIeld
+![Remove](Dokumentasi/ErrorEditEmptyField.gif)
+
+## Error Id 
+![Remove](Dokumentasi/ErrorIdSama.gif)
